@@ -1,0 +1,165 @@
+*{
+    padding: 0px; 
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+body {
+    background-color: #e2e8f7;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+}
+header {
+    
+   
+    padding: 16px 30px;
+    background-color: #182c61;
+    color: white;
+    font-weight: normal;
+    
+
+}
+header h1, header nav ul li a {
+    font-family: 'Bungee', sans-serif;
+}
+
+header nav ul {
+    display: flex;
+    gap: 3em;
+    
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li {
+    list-style-type: none;
+    font-size: 24px;
+}
+header nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    margin: 4em 0px;
+}
+
+main section .container {
+    display: flex;
+    gap: 1em;
+}
+
+main article h2 {
+    font-size: 32px;
+    font-family: 'Bungee', sans-serif;
+    margin-bottom: 2em;
+    color: #182c61;
+    font-weight: normal;
+}
+
+main article p {
+    color: #182c61;
+    font-size: 24px;
+    margin-bottom: 1em;
+}
+
+#marcas img {
+    width: 60px;
+    margin-right: 1em;
+}
+#marcas li {
+    list-style-type: none;
+    display: inline;
+}
+/*CONTATO*/
+
+#contato .container {
+    margin-bottom: 2em;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+#contato .container h2, h3, #botao_enviar{
+    font-family: 'Bungee', sans-serif;
+}
+
+#contato img {
+    width: 40px;
+}
+#contato h3 {
+    margin-bottom: 1em;
+}
+
+#contato ul li {
+    list-style: none;
+
+}
+.colunas_rodape {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.contato_fale-conosco {
+    display: flex;
+    flex-direction: column;
+}
+#form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+#form-contato input {
+    min-width: 320px;
+    max-width: 320px;
+    padding: 0.5em 1em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#form-contato textarea {
+    min-height: 120px;
+    padding: 1em;
+    max-width: 320px;
+    min-width: 320px;
+    max-height: 180px;
+    color: rgb(41, 41, 41);
+    font-family: 'Roboto', sans-serif;
+    
+}
+#form-contato textarea:focus {
+    outline-color: #182c61;
+}
+#botao_enviar {
+    color: white;
+    background-color:#182c61;
+    border: none;
+    /*alterar o desenho do cursor*/
+    cursor: pointer;
+    
+}
+#botao_enviar:hover {
+    background-color: #374f91;
+}
+
+
+#contato_nos-acompanhe ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+footer {
+    background-color: #182c61;
+    color: white;
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+}
